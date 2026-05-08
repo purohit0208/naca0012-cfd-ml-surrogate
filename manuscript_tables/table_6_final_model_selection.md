@@ -1,0 +1,8 @@
+| Role | Target | Model | Metric_source | Rationale | MAE | RMSE | Max_abs_error | R2 | PICP_95 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Primary interpolation/UQ model | Cl_SU2 | gpr_matern | LOOCV | Lowest Cl LOOCV RMSE and provides predictive standard deviation. | 9.938e-04 | 1.848e-03 | 6.012e-03 | 1 | 0.8333 |
+| Primary interpolation/UQ model | Cd_SU2 | gpr_matern | LOOCV | Lowest Cd LOOCV RMSE and provides predictive standard deviation. | 6.624e-05 | 7.772e-05 | 1.387e-04 | 0.9995 | 0.9167 |
+| High-alpha extrapolation stress test | Cl_SU2 | poly3 | train alpha <= 10.12, test alpha > 10.12 | Best high-alpha lift extrapolation among tested baselines. | 3.840e-03 | 5.419e-03 | 0.0101 | 0.9974 |  |
+| High-alpha extrapolation stress test | Cd_SU2 | bootstrap_poly3 | train alpha <= 10.12, test alpha > 10.12 | Best high-alpha drag extrapolation among tested baselines; uncertainty is conservative but not fully calibrated. | 1.627e-04 | 1.817e-04 | 2.879e-04 | 0.9914 | 1 |
+| Negative control | Cl_SU2 | random_forest | train alpha <= 10.12, test alpha > 10.12 | Tree model fails to extrapolate and should be shown as a cautionary baseline. | 0.3457 | 0.3614 | 0.4889 | -10.7547 |  |
+| Negative control | Cd_SU2 | random_forest | train alpha <= 10.12, test alpha > 10.12 | Tree model fails to extrapolate and should be shown as a cautionary baseline. | 4.324e-03 | 4.749e-03 | 7.153e-03 | -4.8492 |  |

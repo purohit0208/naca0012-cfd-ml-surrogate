@@ -1,0 +1,7 @@
+Role,Target,Model,Metric_source,Rationale,MAE,RMSE,Max_abs_error,R2,PICP_95
+Primary interpolation/UQ model,Cl_SU2,gpr_matern,LOOCV,Lowest Cl LOOCV RMSE and provides predictive standard deviation.,0.0009938324329692,0.0018479550169293,0.0060121287758202,0.999991495614884,0.8333333333333334
+Primary interpolation/UQ model,Cd_SU2,gpr_matern,LOOCV,Lowest Cd LOOCV RMSE and provides predictive standard deviation.,6.623734106762057e-05,7.771570919806114e-05,0.0001386611156493,0.9995195589498648,0.9166666666666666
+High-alpha extrapolation stress test,Cl_SU2,poly3,"train alpha <= 10.12, test alpha > 10.12",Best high-alpha lift extrapolation among tested baselines.,0.003840104423721,0.0054186801222939,0.0100664375598944,0.9973572606900584,
+High-alpha extrapolation stress test,Cd_SU2,bootstrap_poly3,"train alpha <= 10.12, test alpha > 10.12",Best high-alpha drag extrapolation among tested baselines; uncertainty is conservative but not fully calibrated.,0.0001627421234516,0.0001816810575254,0.0002879338232344,0.9914378727331786,1.0
+Negative control,Cl_SU2,random_forest,"train alpha <= 10.12, test alpha > 10.12",Tree model fails to extrapolate and should be shown as a cautionary baseline.,0.3456737033333397,0.3613873076857752,0.4889249533333396,-10.75474161813792,
+Negative control,Cd_SU2,random_forest,"train alpha <= 10.12, test alpha > 10.12",Tree model fails to extrapolate and should be shown as a cautionary baseline.,0.0043236649999998,0.0047485994284866,0.0071526649999998,-4.849159340078215,

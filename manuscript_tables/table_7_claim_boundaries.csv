@@ -1,0 +1,6 @@
+Claim,Supported,Evidence,Boundary
+Open-source SU2 workflow can reproduce a small validated NACA 0012 coefficient dataset.,Yes,"12 accepted SU2 cases, internal symmetry at +/-4.04 deg, comparison against local experiment/Fluent/TAU/CFL3D values.","Only NACA 0012, Re = 6e6, low Mach, Spalart-Allmaras, current mesh/settings."
+Gaussian-process surrogate is a strong interpolation baseline for Cl and Cd.,Yes,Best LOOCV RMSE for both targets with predictive standard deviation.,Small-data result; uncertainty calibration is approximate.
+Model can extrapolate reliably beyond sampled high-alpha range.,No,High-alpha holdout is a stress test only; random forest fails strongly and UQ calibration remains weak.,Do not claim robust extrapolation beyond alpha = 14.22 deg.
+Deep learning improves the surrogate.,No,Only 12 CFD rows; no neural network trained.,"Mention AI/ML broadly, but do not present deep-learning performance claims for Paper 1."
+High-alpha drag is fully validated.,No,"Cd at 14.22 deg is 17.42% above experiment, though closer to Fluent and TAU.",Treat high-alpha points as caveated credibility/failure-boundary evidence.

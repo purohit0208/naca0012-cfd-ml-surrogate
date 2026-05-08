@@ -1,0 +1,17 @@
+Coefficient,Reference,N,Mean_abs_percent_difference,Max_abs_percent_difference
+Cd,CFL3D,1,3.10317,3.10317
+Cd,Exp,11,8.73577381818182,17.4215
+Cd,Fluent,11,3.658412363636364,12.6346
+Cd,Local manuscript Fluent alpha near 0,1,2.8989,2.8989
+Cd,Local manuscript TAU alpha near 0,1,3.02439,3.02439
+Cd,Local manuscript experiment alpha near 0,1,4.42522,4.42522
+Cd,NASA/TMR SA CFL3D alpha0,1,3.15018,3.15018
+Cd,NASA/TMR SA FUN3D alpha0,1,4.03941,4.03941
+Cd,TAU,11,4.435974181818182,12.086
+Cl,CFL3D,1,0.196168,0.196168
+Cl,Exp,11,2.6523463636363633,5.12941
+Cl,Fluent,11,1.263326781818182,3.41836
+Cl,Local manuscript Fluent alpha near 0,1,99.9538,99.9538
+Cl,Local manuscript TAU alpha near 0,1,99.9455,99.9455
+Cl,Local manuscript experiment alpha near 0,1,99.9762,99.9762
+Cl,TAU,11,2.404143818181818,5.89722

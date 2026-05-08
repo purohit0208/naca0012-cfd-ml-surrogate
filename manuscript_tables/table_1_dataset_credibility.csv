@@ -1,0 +1,13 @@
+Case,Alpha_deg,Cl,Cd,log10_rms_pressure,Continuation,Credibility_score,Credibility_tier
+alpha_m4p04,-4.04,-0.446233,0.008797,-7.250643,False,0.7,usable_with_caveat
+alpha_m2p14,-2.14,-0.233193,0.008551,-7.346496,False,0.7,usable_with_caveat
+alpha_0_baseline,0.0,-3e-06,0.008448,-9.546991,True,1.0,core
+alpha_p2p05,2.05,0.2234,0.008543,-7.092317,False,0.6,diagnostic_only
+alpha_p4p04,4.04,0.446198,0.008783,-7.228706,False,0.7,usable_with_caveat
+alpha_p6p09,6.09,0.672905,0.009712,-7.387208,True,1.0,core
+alpha_p8p30,8.3,0.905927,0.011109,-6.982125,True,0.85,core
+alpha_p10p12,10.12,1.09304,0.012692,-7.091951,True,0.85,core
+alpha_p11p13,11.13,1.195696,0.013809,-7.48812,True,0.7000000000000001,usable_with_caveat
+alpha_p12p12,12.12,1.291498,0.01523,-7.611476,True,0.7000000000000001,usable_with_caveat
+alpha_p13p08,13.08,1.380482,0.016888,-7.73697,True,0.5499999999999999,diagnostic_only
+alpha_p14p22,14.22,1.480227,0.019081,-7.806609,True,0.5499999999999999,diagnostic_only

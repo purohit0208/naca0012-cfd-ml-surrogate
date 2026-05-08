@@ -1,0 +1,18 @@
+case_id,AoA_deg,priority,run_status,notes
+alpha_m4p04,-4.04,attached_sweep,completed,second negative Phase 3 case completed; Cl=-0.446233 Cd=0.008797 at 3000 iterations
+alpha_m2p14,-2.14,attached_sweep,completed,first negative Phase 3 case completed; Cl=-0.233193 Cd=0.008551 at 3000 iterations
+alpha_m0p05,-0.05,attached_sweep,pending,near alpha zero reference
+alpha_p2p05,2.05,first_test,completed,first nonzero Phase 3 case completed; Cl=0.2234 Cd=0.008543 at 3000 iterations
+alpha_p4p04,4.04,attached_sweep,completed,second nonzero Phase 3 case completed; Cl=0.446198 Cd=0.008783 at 3000 iterations
+alpha_p6p09,6.09,attached_sweep,completed,third nonzero Phase 3 case completed with 2000-iteration continuation; Cl=0.672905 Cd=0.009712 accepted
+alpha_p8p30,8.30,attached_sweep,completed,fourth nonzero Phase 3 case completed with 2000-iteration continuation; Cl=0.905927 Cd=0.011109 accepted
+alpha_p10p12,10.12,attached_sweep,completed,higher-alpha Phase 3 case completed with 2000-iteration continuation; Cl=1.093040 Cd=0.012692 accepted
+alpha_p11p13,11.13,attached_sweep,completed,higher-alpha Phase 3 case completed with 2000-iteration continuation; Cl=1.195696 Cd=0.013809 accepted with high-drag caveat
+alpha_p12p12,12.12,attached_sweep,completed,higher-alpha Phase 3 case completed with 2000-iteration continuation; Cl=1.291498 Cd=0.015230 accepted with high-drag caveat
+alpha_p13p08,13.08,attached_sweep,completed,higher-alpha Phase 3 case completed with 2000-iteration continuation; Cl=1.380482 Cd=0.016888 accepted with high-alpha drift caveat
+alpha_p14p22,14.22,attached_sweep,completed,targeted Phase 4 high-alpha case completed with 2000-iteration continuation plus 1000-iteration second continuation; Cl=1.480227 Cd=0.019081 accepted with strong high-drag caveat
+alpha_p15p26,15.26,attached_sweep,pending,CFL3D comparison available in local manuscript
+alpha_p16p30,16.30,delayed_high_alpha,pending,delay until attached sweep stable
+alpha_p17p13,17.13,delayed_high_alpha,pending,near stall; delay
+alpha_p18p02,18.02,delayed_post_stall,pending,post-stall; delay
+alpha_p19p08,19.08,delayed_post_stall,pending,post-stall; delay

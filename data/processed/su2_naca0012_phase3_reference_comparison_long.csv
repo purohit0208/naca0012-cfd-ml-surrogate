@@ -1,0 +1,78 @@
+alpha_deg,coefficient,reference_source,su2_value,reference_value,difference,percent_difference,notes
+-4.04,Cd,Exp,0.008797,0.00871,8.7e-05,0.998852,Existing local manuscript dataset
+-4.04,Cd,Fluent,0.008797,0.00874,5.7e-05,0.652174,Existing local manuscript dataset
+-4.04,Cd,TAU,0.008797,0.00907,-0.000273,-3.00992,Existing local manuscript dataset
+-4.04,Cl,Exp,-0.446233,-0.4417,-0.004533,1.02626,Existing local manuscript dataset
+-4.04,Cl,Fluent,-0.446233,-0.4466,0.000367,-0.0821764,Existing local manuscript dataset
+-4.04,Cl,TAU,-0.446233,-0.4571,0.010867,-2.37738,Existing local manuscript dataset
+-2.14,Cd,Exp,0.008551,0.008,0.000551,6.8875,Existing local manuscript dataset
+-2.14,Cd,Fluent,0.008551,0.00834,0.000211,2.52998,Existing local manuscript dataset
+-2.14,Cd,TAU,0.008551,0.00858,-2.9e-05,-0.337995,Existing local manuscript dataset
+-2.14,Cl,Exp,-0.233193,-0.2385,0.005307,-2.22516,Existing local manuscript dataset
+-2.14,Cl,Fluent,-0.233193,-0.2375,0.004307,-1.81347,Existing local manuscript dataset
+-2.14,Cl,TAU,-0.233193,-0.2428,0.009607,-3.95675,Existing local manuscript dataset
+0.0,Cd,Local manuscript Fluent alpha near 0,0.008448,0.00821,0.000238,2.8989,Extracted NACA manuscript image15
+0.0,Cd,Local manuscript TAU alpha near 0,0.008448,0.0082,0.000248,3.02439,Extracted NACA manuscript image15
+0.0,Cd,Local manuscript experiment alpha near 0,0.008448,0.00809,0.000358,4.42522,Extracted NACA manuscript image15
+0.0,Cd,NASA/TMR SA CFL3D alpha0,0.008448,0.00819,0.000258,3.15018,NASA/TMR SA summary table
+0.0,Cd,NASA/TMR SA FUN3D alpha0,0.008448,0.00812,0.000328,4.03941,NASA/TMR SA summary table
+0.0,Cl,Local manuscript Fluent alpha near 0,-3e-06,-0.0065,0.006497,-99.9538,Extracted NACA manuscript image14
+0.0,Cl,Local manuscript TAU alpha near 0,-3e-06,-0.0055,0.005497,-99.9455,Extracted NACA manuscript image14
+0.0,Cl,Local manuscript experiment alpha near 0,-3e-06,-0.0126,0.012597,-99.9762,Extracted NACA manuscript image14
+0.0,Cl,NASA/TMR SA CFL3D alpha0,-3e-06,0.0,-3e-06,,NASA/TMR SA summary table: approx 0
+2.05,Cd,Exp,0.008543,0.00816,0.000383,4.69363,Existing local manuscript dataset
+2.05,Cd,Fluent,0.008543,0.00834,0.000203,2.43405,Existing local manuscript dataset
+2.05,Cd,TAU,0.008543,0.00857,-2.7e-05,-0.315053,Existing local manuscript dataset
+2.05,Cl,Exp,0.2234,0.2125,0.0109,5.12941,Existing local manuscript dataset
+2.05,Cl,Fluent,0.2234,0.2273,-0.0039,-1.71579,Existing local manuscript dataset
+2.05,Cl,TAU,0.2234,0.2374,-0.014,-5.89722,Existing local manuscript dataset
+4.04,Cd,Exp,0.008783,0.00823,0.000553,6.71932,Existing local manuscript dataset
+4.04,Cd,Fluent,0.008783,0.00873,5.3e-05,0.607102,Existing local manuscript dataset
+4.04,Cd,TAU,0.008783,0.00919,-0.000407,-4.42873,Existing local manuscript dataset
+4.04,Cl,Exp,0.446198,0.4316,0.014598,3.3823,Existing local manuscript dataset
+4.04,Cl,Fluent,0.446198,0.4465,-0.000302,-0.0676372,Existing local manuscript dataset
+4.04,Cl,TAU,0.446198,0.4566,-0.010402,-2.27814,Existing local manuscript dataset
+6.09,Cd,Exp,0.009712,0.00885,0.000862,9.74011,Existing local manuscript dataset
+6.09,Cd,Fluent,0.009712,0.00951,0.000202,2.12408,Existing local manuscript dataset
+6.09,Cd,TAU,0.009712,0.01027,-0.000558,-5.4333,Existing local manuscript dataset
+6.09,Cl,Exp,0.672905,0.6546,0.018305,2.79636,Existing local manuscript dataset
+6.09,Cl,Fluent,0.672905,0.6692,0.003705,0.553646,Existing local manuscript dataset
+6.09,Cl,TAU,0.672905,0.6838,-0.010895,-1.5933,Existing local manuscript dataset
+8.3,Cd,Exp,0.011109,0.0105,0.000609,5.8,Existing local manuscript dataset
+8.3,Cd,Fluent,0.011109,0.01094,0.000169,1.54479,Existing local manuscript dataset
+8.3,Cd,TAU,0.011109,0.01208,-0.000971,-8.03808,Existing local manuscript dataset
+8.3,Cl,Exp,0.905927,0.8873,0.018627,2.09929,Existing local manuscript dataset
+8.3,Cl,Fluent,0.905927,0.9023,0.003627,0.401973,Existing local manuscript dataset
+8.3,Cl,TAU,0.905927,0.922,-0.016073,-1.74328,Existing local manuscript dataset
+10.12,Cd,CFL3D,0.012692,0.01231,0.000382,3.10317,Existing local manuscript dataset
+10.12,Cd,Exp,0.012692,0.01201,0.000682,5.6786,Existing local manuscript dataset
+10.12,Cd,Fluent,0.012692,0.01282,-0.000128,-0.99844,Existing local manuscript dataset
+10.12,Cd,TAU,0.012692,0.01405,-0.001358,-9.66548,Existing local manuscript dataset
+10.12,Cl,CFL3D,1.09304,1.0909,0.00214,0.196168,Existing local manuscript dataset
+10.12,Cl,Exp,1.09304,1.0707,0.02234,2.08649,Existing local manuscript dataset
+10.12,Cl,Fluent,1.09304,1.0857,0.00734,0.676062,Existing local manuscript dataset
+10.12,Cl,TAU,1.09304,1.0912,0.00184,0.168622,Existing local manuscript dataset
+11.13,Cd,Exp,0.013809,0.01239,0.001419,11.4528,Existing local manuscript dataset
+11.13,Cd,Fluent,0.013809,0.01226,0.001549,12.6346,Existing local manuscript dataset
+11.13,Cd,TAU,0.013809,0.01232,0.001489,12.086,Existing local manuscript dataset
+11.13,Cl,Exp,1.195696,1.1685,0.027196,2.32743,Existing local manuscript dataset
+11.13,Cl,Fluent,1.195696,1.1814,0.014296,1.21009,Existing local manuscript dataset
+11.13,Cl,TAU,1.195696,1.1725,0.023196,1.97834,Existing local manuscript dataset
+12.12,Cd,Exp,0.01523,0.01332,0.00191,14.3393,Existing local manuscript dataset
+12.12,Cd,Fluent,0.01523,0.01407,0.00116,8.24449,Existing local manuscript dataset
+12.12,Cd,TAU,0.01523,0.01485,0.00038,2.55892,Existing local manuscript dataset
+12.12,Cl,Exp,1.291498,1.2605,0.030998,2.45918,Existing local manuscript dataset
+12.12,Cl,Fluent,1.291498,1.2702,0.021298,1.67674,Existing local manuscript dataset
+12.12,Cl,TAU,1.291498,1.2813,0.010198,0.79591,Existing local manuscript dataset
+13.08,Cd,Exp,0.016888,0.01503,0.001858,12.3619,Existing local manuscript dataset
+13.08,Cd,Fluent,0.016888,0.01636,0.000528,3.22738,Existing local manuscript dataset
+13.08,Cd,TAU,0.016888,0.01702,-0.000132,-0.775558,Existing local manuscript dataset
+13.08,Cl,Exp,1.380482,1.3455,0.034982,2.59993,Existing local manuscript dataset
+13.08,Cl,Fluent,1.380482,1.3497,0.030782,2.28065,Existing local manuscript dataset
+13.08,Cl,TAU,1.380482,1.3402,0.040282,3.00567,Existing local manuscript dataset
+14.22,Cd,Exp,0.019081,0.01625,0.002831,17.4215,Existing local manuscript dataset
+14.22,Cd,Fluent,0.019081,0.01813,0.000951,5.24545,Existing local manuscript dataset
+14.22,Cd,TAU,0.019081,0.01868,0.000401,2.14668,Existing local manuscript dataset
+14.22,Cl,Exp,1.480227,1.4365,0.043727,3.044,Existing local manuscript dataset
+14.22,Cl,Fluent,1.480227,1.4313,0.048927,3.41836,Existing local manuscript dataset
+14.22,Cl,TAU,1.480227,1.442,0.038227,2.65097,Existing local manuscript dataset

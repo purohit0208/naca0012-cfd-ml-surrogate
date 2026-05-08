@@ -1,0 +1,14 @@
+| Case | Alpha_deg | Cl | Cd | log10_rms_pressure | Continuation | Credibility_score | Credibility_tier |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| alpha_m4p04 | -4.04 | -0.4462 | 8.797e-03 | -7.2506 | 0.000e+00 | 0.7 | usable_with_caveat |
+| alpha_m2p14 | -2.14 | -0.2332 | 8.551e-03 | -7.3465 | 0.000e+00 | 0.7 | usable_with_caveat |
+| alpha_0_baseline | 0.000e+00 | -3.000e-06 | 8.448e-03 | -9.547 | 1 | 1 | core |
+| alpha_p2p05 | 2.05 | 0.2234 | 8.543e-03 | -7.0923 | 0.000e+00 | 0.6 | diagnostic_only |
+| alpha_p4p04 | 4.04 | 0.4462 | 8.783e-03 | -7.2287 | 0.000e+00 | 0.7 | usable_with_caveat |
+| alpha_p6p09 | 6.09 | 0.6729 | 9.712e-03 | -7.3872 | 1 | 1 | core |
+| alpha_p8p30 | 8.3 | 0.9059 | 0.0111 | -6.9821 | 1 | 0.85 | core |
+| alpha_p10p12 | 10.12 | 1.093 | 0.0127 | -7.092 | 1 | 0.85 | core |
+| alpha_p11p13 | 11.13 | 1.1957 | 0.0138 | -7.4881 | 1 | 0.7 | usable_with_caveat |
+| alpha_p12p12 | 12.12 | 1.2915 | 0.0152 | -7.6115 | 1 | 0.7 | usable_with_caveat |
+| alpha_p13p08 | 13.08 | 1.3805 | 0.0169 | -7.737 | 1 | 0.55 | diagnostic_only |
+| alpha_p14p22 | 14.22 | 1.4802 | 0.0191 | -7.8066 | 1 | 0.55 | diagnostic_only |

@@ -3,8 +3,8 @@ title: "Open-source CFD+ML surrogate modeling for a validated NACA 0012 benchmar
 message: "If you use this repository, please cite the accompanying manuscript."
 type: software
 authors:
-  - family-names: "[AUTHOR FAMILY NAME]"
-    given-names: "[AUTHOR GIVEN NAME]"
+  - family-names: "Purohit"
+    given-names: "Parth"
 repository-code: "https://github.com/purohit0208/naca0012-cfd-ml-surrogate"
 date-released: "2026-05-08"
 license: "MIT"

@@ -9,7 +9,11 @@
 
 The accepted coefficient dataset contains 12 NACA 0012 angle-of-attack cases from `-4.04 deg` to `14.22 deg`.
 
-The public package includes processed coefficient data and selected small surface-output files. Large volume solutions, restart files, full logs, private manuscripts, and paid-software raw outputs are not included.
+The public package includes processed coefficient data, selected small surface-output files, and the compact alpha-zero mesh-sensitivity log. Large volume solutions, restart files, private manuscripts, and paid-software raw outputs are not included.
+
+## Mesh-Sensitivity Addendum
+
+The package includes a limited alpha-zero two-grid sensitivity check using the official nested NASA/TMR `449 x 129` and `897 x 257` grids. This is not a formal GCI study. The summary is available in `docs/alpha0_mesh_sensitivity_report.md`, and compact coarse-grid setup/log files are retained in `data/raw/mesh_sensitivity`.
 
 ## ML Reproduction
 

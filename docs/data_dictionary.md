@@ -20,3 +20,7 @@ Per-case surrogate predictions for evaluated models.
 ## `surface_validation_metrics.csv`
 
 Surface-level validation metrics comparing SU2 surface `Cp`/`Cf` profiles with official TMR/CFL3D reference data.
+
+## `alpha0_mesh_sensitivity_summary.csv`
+
+Two-grid alpha-zero sensitivity summary comparing the `449 x 129` and `897 x 257` nested NASA/TMR grids.

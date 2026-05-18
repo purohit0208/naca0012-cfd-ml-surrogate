@@ -8,7 +8,7 @@ The study uses a free/open-source workflow around SU2, Python, and sample-effici
 
 ## Repository Contents
 
-- `data/processed`: accepted SU2 coefficient dataset, reference-comparison table, surface-validation tables, and machine-learning outputs.
+- `data/processed`: accepted SU2 coefficient dataset, reference-comparison table, surface-validation tables, mesh-sensitivity summary, and machine-learning outputs.
 - `figures`: manuscript figures and supporting figure panels.
 - `manuscript_tables`: CSV and Markdown tables used in the manuscript.
 - `scripts`: Python scripts used for ML baselines, manuscript tables, surface-validation post-processing, and workflow figure generation.

@@ -3,7 +3,11 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 *.log
+!data/raw/mesh_sensitivity/*.log
 *.dat
 *.vtu
 !data/raw/surface_validation/*.vtu
+!data/raw/mesh_sensitivity/*.su2
+!data/raw/mesh_sensitivity/*.cfg
+!data/raw/mesh_sensitivity/*.csv
 reproduced/

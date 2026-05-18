@@ -4,6 +4,7 @@ Primary public sources used by the manuscript and release package:
 
 - SU2 turbulent NACA 0012 tutorial: https://su2code.github.io/tutorials/Inc_Turbulent_NACA0012/
 - NASA/TMR 2D NACA 0012 validation case: https://tmbwg.github.io/turbmodels/naca0012_val.html
+- NASA/TMR NACA 0012 nested grid page: https://tmbwg.github.io/turbmodels/naca0012_grids.html
 - Journal of Applied Fluid Mechanics manuscript instructions: https://www.jafmonline.net/page_3.html
 - Journal of Applied Fluid Mechanics publication charges: https://www.jafmonline.net/page_2.html
 

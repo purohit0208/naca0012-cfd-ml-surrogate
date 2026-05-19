@@ -13,7 +13,7 @@ The public package includes processed coefficient data, selected small surface-o
 
 ## Mesh-Sensitivity Addendum
 
-The package includes a limited alpha-zero two-grid sensitivity check using the official nested NASA/TMR `449 x 129` and `897 x 257` grids. This is not a formal GCI study. The summary is available in `docs/alpha0_mesh_sensitivity_report.md`, and compact coarse-grid setup/log files are retained in `data/raw/mesh_sensitivity`.
+The package includes a limited alpha-zero two-grid sensitivity check using the official nested NASA/TMR `449 x 129` and `897 x 257` grids. It reports a conservative two-grid, assumed-order GCI-style drag uncertainty estimate; it is not a full observed-order three-grid GCI study. The summary is available in `docs/alpha0_mesh_sensitivity_report.md`, the compact calculation table is retained in `data/processed/mesh_sensitivity/alpha0_two_grid_gci_summary.csv`, and compact coarse-grid setup/log files are retained in `data/raw/mesh_sensitivity`.
 
 ## ML Reproduction
 

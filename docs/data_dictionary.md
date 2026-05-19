@@ -24,3 +24,7 @@ Surface-level validation metrics comparing SU2 surface `Cp`/`Cf` profiles with o
 ## `alpha0_mesh_sensitivity_summary.csv`
 
 Two-grid alpha-zero sensitivity summary comparing the `449 x 129` and `897 x 257` nested NASA/TMR grids.
+
+## `alpha0_two_grid_gci_summary.csv`
+
+Conservative two-grid GCI-style calculation table for alpha-zero drag using `r = 2`, assumed `p = 2`, and `Fs = 3`.

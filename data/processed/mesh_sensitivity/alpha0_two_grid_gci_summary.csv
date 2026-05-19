@@ -1,0 +1,10 @@
+quantity,value,units,note
+Cd_coarse_449x129,0.008188000,dimensionless,SU2 final coefficient from official nested NASA/TMR coarse grid
+Cd_fine_897x257,0.008448000,dimensionless,SU2 final coefficient from accepted fine baseline grid
+relative_difference_epsilon,-0.030776515,fraction,(Cd_coarse - Cd_fine) / Cd_fine
+refinement_ratio_r,2.000,dimensionless,nested grid ratio in both coordinate directions
+assumed_order_p,2.000,dimensionless,"assumed second-order behavior, not observed from three grids"
+gci_safety_factor,3.000,dimensionless,two-grid reporting safety factor
+fine_grid_gci,3.077652,percent,conservative two-grid GCI-style discretization uncertainty estimate
+fine_grid_gci_absolute_Cd,0.000260000,dimensionless Cd,absolute Cd band corresponding to fine_grid_gci
+assumed_second_order_richardson_Cd,0.008534667,dimensionless Cd,reported only as a calculation check; not used as a corrected result

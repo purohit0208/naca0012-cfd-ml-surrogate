@@ -8,10 +8,10 @@ The study uses a free/open-source workflow around SU2, Python, and sample-effici
 
 ## Repository Contents
 
-- `data/processed`: accepted SU2 coefficient dataset, reference-comparison table, surface-validation tables, mesh-sensitivity summary, and machine-learning outputs.
+- `data/processed`: accepted SU2 coefficient dataset, reference-comparison table, surface-validation tables, mesh-sensitivity summary, machine-learning outputs, and the experimental polar to 19 deg (Exp/Fluent/TAU/CFL3D; pre-existing comparison data from the author's prior NACA 0012 study and public Ladson / NASA-TMR sources).
 - `figures`: manuscript figures and supporting figure panels.
 - `manuscript_tables`: CSV and Markdown tables used in the manuscript.
-- `scripts`: Python scripts used for ML baselines, manuscript tables, surface-validation post-processing, and workflow figure generation.
+- `scripts`: Python scripts used for ML baselines, manuscript tables, surface-validation post-processing, workflow figure generation, and the cross-solver uncertainty / stall-region extrapolation analysis (`run_cross_solver_and_stall.py`, manuscript Section 3.7).
 - `docs`: reproducibility notes, data dictionary, source notes, and local similarity precheck output.
 
 ## Reproduction
